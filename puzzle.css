@@ -1,0 +1,140 @@
+body {
+	font-family: Consolas, Arial, sans-serif;
+	background-image: url("background.jpg");
+	background-size: 50% 150%;
+}
+h1 {
+	text-align: center;
+}
+#t {
+	font-weight: bold;
+	width: 130px;
+}
+#time {
+	position: absolute;
+	left: 15%;
+	top: 20%;
+	width: 200px;
+	height: 200px;
+	border: 1px solid black;
+	background-image: url("picture.jpg");
+	background-size: 200px 200px;
+	text-align: center;
+}
+#game {
+	position: relative;
+	width: 410px;
+	height: 410px;
+	margin: auto;
+	padding: 4px;
+	background-color: black;
+}
+#switch {
+	margin: auto;
+	margin-top: 50px;
+	width: 150px;
+	height: 50px;
+}
+#switch button {
+	width: 140px;
+	height: 50px;
+	color: white;
+	font-size: 20px;
+	background-color: black;
+	box-shadow: 6px 6px 10px #93989E;
+}
+.part {
+	position: absolute;
+	z-index: 0;
+	width: 95px;
+	height: 95px;
+	border: 1px solid black;
+	background-image: url("picture.jpg");
+	background-size: 470px 470px;
+}
+.part:hover {
+	z-index: 1;
+	transform: scale(1.05, 1.05);
+	border: 1px solid white;
+}
+
+#part1 {
+	background-position: 0% 0%;
+}
+#part2 {
+	background-position: 25% 0%;
+}
+#part3 {
+	background-position: 50% 0%;
+}
+#part4 {
+	background-position: 75% 0%;
+}
+#part5 {
+	background-position: 0% 25%;
+}
+#part6 {
+	background-position: 25% 25%;
+}
+#part7 {
+	background-position: 50% 25%;
+}
+#part8 {
+	background-position: 75% 25%;
+}
+#part9 {
+	background-position: 0% 50%;
+}
+#part10 {
+	background-position: 25% 50%;
+}
+#part11 {
+	background-position: 50% 50%;
+}
+#part12 {
+	background-position: 75% 50%;
+}
+#part13 {
+	background-position: 0% 75%;
+}
+#part14 {
+	background-position: 25% 75%;
+}
+#part15 {
+	background-position: 50% 75%;
+}
+#part16 {
+	opacity: 0;
+}
+.row1 {
+	transition: all 0.3s;
+	top: 10px;
+}
+.row2 {
+	transition: all 0.3s;
+	top: 110px;
+}
+.row3 {
+	transition: all 0.3s;
+	top: 210px;
+}
+.row4 {
+	transition: all 0.3s;
+	top: 310px;
+}
+.column1 {
+	transition: all 0.3s;
+	left: 10px;
+}
+.column2 {
+	transition: all 0.3s;
+	left: 110px;
+}
+.column3 {
+	transition: all 0.3s;
+	left: 210px;
+}
+.column0 {
+	transition: all 0.3s;
+	left: 310px;
+}
